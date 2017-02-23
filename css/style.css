@@ -1,0 +1,7 @@
+.navbar ul li {
+  text-transform: uppercase;
+}
+
+.navbar ul {
+  padding-left: 15vw;
+}
