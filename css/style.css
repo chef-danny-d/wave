@@ -1,3 +1,103 @@
+/*color pallet
+white: #F9F9F9
+sky: #D1DBE5
+deep: #23445F
+pearl: #51779C
+cobalt: #7595B2
+carbon: #8FAFC7
+skin: #C2A69F
+*/
+
+#pallet {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5em;
+  width: 5em;
+}
+
+#pallet p {
+  width: 50%;
+  height: 50%;
+}
+
+#pallet p:nth-child(1) {
+  background: #f9f9f9;
+}
+
+#pallet p:nth-child(2) {
+  background: #d1dbe5;
+}
+
+#pallet p:nth-child(3) {
+  background: #23445f;
+}
+
+#pallet p:nth-child(4) {
+  background: #51779c;
+}
+
+#pallet p:nth-child(5) {
+  background: #7595b2;
+}
+
+#pallet p:nth-child(6) {
+  background: #8fafc7;
+}
+
+#pallet p:nth-child(7) {
+  background: #c2a69f;
+}
+
+
+/*----------------------------------------------GLOBAL START------------------------*/
+
+* {
+  font-family: 'Inconsolata', monospace;
+}
+
+.white {
+  color: #F9F9F9
+}
+
+.sky {
+  color: #D1DBE5
+}
+
+.deep {
+  color: #23445F
+}
+
+.pearl {
+  color: #51779C
+}
+
+.cobalt {
+  color: #7595B2
+}
+
+.carbon {
+  color: #8FAFC7
+}
+
+.skin {
+  color: #C2A69F
+}
+
+.gray {
+  color: #333;
+}
+
+.black {
+  color: #000;
+}
+
+
+/*----------------------------------------------GLOBAL END--------------------------*/
+
+
+/*----------------------------------------------NAVBAR START------------------------*/
+
 .navbar ul li {
   text-transform: uppercase;
 }
@@ -5,3 +105,72 @@
 .navbar ul {
   padding-left: 15vw;
 }
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  border: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #23445f;
+  font-weight: bolder;
+  font-size: 1.2em;
+  letter-spacing: 0.13em;
+}
+
+
+/*----------------------------------------------NAVBAR END-------------------------*/
+
+
+/*----------------------------------------------SECTIONS START---------------------*/
+
+#home, #testemonial, #surf, #training, #point, #contact {
+  height: 100vh;
+}
+
+
+/*----------------------------------------------SECTIONS END-----------------------*/
+
+
+/*----------------------------------------------HOME START-------------------------*/
+
+@media (min-width: 992px) {
+  #home .col-md-offset-1 {
+    margin-left: 9.333333%;
+  }
+}
+
+#power-q {
+  margin-top: 33vh;
+}
+
+#home img {
+  width: 66%;
+  FLOAT: right;
+  z-index: -1;
+  margin-top: 8vh;
+  position: absolute;
+  right: 8.3vw;
+}
+
+
+/*----------------------------------------------HOME END---------------------------*/
+
+
+/*----------------------------------------------SOCIAL START-----------------------*/
+
+#social {
+  position: fixed;
+  top: 0;
+  right: 0;
+  border-left: solid 1px lightgray;
+  height: 100vh;
+}
+
+
+/*----------------------------------------------SOCIAL END-------------------------*/
