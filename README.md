@@ -1,2 +1,2 @@
 # Wave
-*Freelance website based on PSD template seen on:* http://freebiesbug.com/psd-freebies/blog-ecommerce-psd-template-surfers/
+*Freelance website based on PSD template seen on:* https://dribbble.com/shots/3079082-Surfing-Free-Theme-PSD
