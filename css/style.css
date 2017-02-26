@@ -234,6 +234,56 @@ skin: #C2A69F
 /*----------------------------------------------STORIES END------------------------*/
 
 
+/*----------------------------------------------SURF START-------------------------*/
+
+#surf {
+  margin-top: 20vh;
+}
+
+#surf .carousel {
+  height: 100vh;
+}
+
+.carousel-control {
+  width: 8.33333333%;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  filter: none;
+  background-repeat: repeat-x;
+}
+
+.carousel-inner {
+  width: 85.3%;
+  margin: auto;
+}
+
+.carousel-inner .col-md-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-inner .col-md-4:nth-child(1) {
+  background: #666;
+}
+
+.carousel-inner .col-md-4:nth-child(2) {
+  background: #ddd;
+}
+
+.carousel-inner .col-md-4:nth-child(3) {
+  background: #333;
+}
+
+
+/*----------------------------------------------SURF END---------------------------*/
+
+
 /*----------------------------------------------SOCIAL START-----------------------*/
 
 #social {
