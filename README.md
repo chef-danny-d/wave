@@ -20,6 +20,7 @@ The mockup was NOT done by me nor will I ever claim the creation of it. Credit i
   4.   [Unsplash](https://unsplash.com/photos/1CxphuiFS7Y)
   5.   [Unsplash](https://unsplash.com/photos/jIsKN9vlu6w)
   6.   [Unsplash](https://unsplash.com/search/surf?photo=9oU9-PREN90)
+  7.   [TheSurfboardAgency](http://surfboardagency.com/)
 1. resources
   1.   [Bootstrap](http://getbootstrap.com/)
   2.   [jQuery](https://jquery.com/)
