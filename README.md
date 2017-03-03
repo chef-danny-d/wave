@@ -14,9 +14,9 @@ The mockup was NOT done by me nor will I ever claim the creation of it. Credit i
 
 # Credits
 - pictures
-[Link](https://unsplash.com/photos/AZMmUy2qL6A)
-[Link](https://unsplash.com/photos/faeDxDVtGNA)
-[Link](https://unsplash.com/photos/9_Wqa2r9bME)
-[Link](https://unsplash.com/photos/1CxphuiFS7Y)
-[Link](https://unsplash.com/photos/jIsKN9vlu6w)
-[Link](https://unsplash.com/search/surf?photo=9oU9-PREN90)
+- [Link](https://unsplash.com/photos/AZMmUy2qL6A)
+- [Link](https://unsplash.com/photos/faeDxDVtGNA)
+- [Link](https://unsplash.com/photos/9_Wqa2r9bME)
+- [Link](https://unsplash.com/photos/1CxphuiFS7Y)
+- [Link](https://unsplash.com/photos/jIsKN9vlu6w)
+- [Link](https://unsplash.com/search/surf?photo=9oU9-PREN90)
