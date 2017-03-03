@@ -14,12 +14,12 @@ The mockup was NOT done by me nor will I ever claim the creation of it. Credit i
 
 # Credits
 1. pictures
-..1.   [Unsplash](https://unsplash.com/photos/AZMmUy2qL6A)
-..2.   [Unsplash](https://unsplash.com/photos/faeDxDVtGNA)
-..3.   [Unsplash](https://unsplash.com/photos/9_Wqa2r9bME)
-..4.   [Unsplash](https://unsplash.com/photos/1CxphuiFS7Y)
-..5.   [Unsplash](https://unsplash.com/photos/jIsKN9vlu6w)
-..6.   [Unsplash](https://unsplash.com/search/surf?photo=9oU9-PREN90)
+⋅⋅1.   [Unsplash](https://unsplash.com/photos/AZMmUy2qL6A)
+⋅⋅2.   [Unsplash](https://unsplash.com/photos/faeDxDVtGNA)
+⋅⋅3.   [Unsplash](https://unsplash.com/photos/9_Wqa2r9bME)
+⋅⋅4.   [Unsplash](https://unsplash.com/photos/1CxphuiFS7Y)
+⋅⋅5.   [Unsplash](https://unsplash.com/photos/jIsKN9vlu6w)
+⋅⋅6.   [Unsplash](https://unsplash.com/search/surf?photo=9oU9-PREN90)
 1. resources
-..1.   [Bootstrap](http://getbootstrap.com/)
-..2.   [jQuery](https://jquery.com/)
+⋅⋅1.   [Bootstrap](http://getbootstrap.com/)
+⋅⋅2.   [jQuery](https://jquery.com/)
