@@ -26,4 +26,4 @@ The mockup was NOT done by me nor will I ever claim the creation of it. Credit i
 
 # Wireframe
 
-![alt text](wave/img/wave.jpg "Wireframe")
+![Wireframe](https://github.com/chef-danny-d/wave/blob/master/img/wave.jpg "Wireframe")
