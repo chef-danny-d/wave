@@ -23,3 +23,7 @@ The mockup was NOT done by me nor will I ever claim the creation of it. Credit i
 1. resources
   1.   [Bootstrap](http://getbootstrap.com/)
   2.   [jQuery](https://jquery.com/)
+
+# Wireframe
+
+![alt text](wave/img/wave.jpg "Wireframe")
