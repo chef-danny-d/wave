@@ -153,6 +153,19 @@
       <img src="img/train_01.jpg" alt="train-img 1" class="img-responsive" />
     </div>
 
+    <div class="col-md-4 col-md-offset-3" id="train-img-wrapper">
+      <img src="img/train_01.jpg" alt="train-img 1" class="img-responsive" />
+    </div>
+    <div id="training-story">
+      <div class="col-md-4 col-md-offset-1">
+        <h1 class="gray" id="num">02</h1>
+        <h2 class="black">Surf Training</h2>
+        <p class="cobalt">
+          Surf is different. Surfing is a lifestyle. Surfing is addictive. And it is certainly a lot of fun. Of course, surfing is done in the ocean, and everything you do out there is dangerous.
+        </p>
+        <a href="#" class="deep" id="training-read">READ MORE</a>
+      </div>
+    </div>
   </section>
   <section id="contact">contact</section>
   <section class="col-md-1 pull-right" id="social">
@@ -169,6 +182,22 @@
   <script src="https://use.fontawesome.com/c31df283b8.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/jquery-3.1.1.min.js"></script>
+  <script>
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
   <!--offline jquery availibility-->
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
