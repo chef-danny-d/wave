@@ -483,6 +483,7 @@ nav {
   font-size: x-large;
   color: #ddd;
   transition: 2.5s ease;
+  cursor: pointer;
 }
 
 #social-icon i:hover {
