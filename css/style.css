@@ -126,8 +126,7 @@ nav {
 
 .navbar-default {
   background-color: transparent;
-  border-color: transparent;
-  border: 0;
+  border: transparent 0 solid;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -172,6 +171,12 @@ nav {
   margin-top: 8vh;
   position: absolute;
   right: 8.3vw;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 #little {
@@ -188,7 +193,7 @@ nav {
 }
 
 #home h2.black {
-  font-size: -webkit-xxx-large;
+  font-size: xx-large;
   font-weight: bolder;
   font-family: 'PT Serif', serif;
   margin-bottom: 20px;
@@ -278,14 +283,14 @@ nav {
 /*----------------------------------------------SURF START-------------------------*/
 
 #surf {
-  margin-top: 45vh;
+  margin-top: 30vh;
 }
 
 #surf .carousel {
   height: auto;
   width: 98vw;
   padding-right: 0;
-  padding-bottom: 15vh;
+  padding-bottom: 3vh;
 }
 
 .carousel-control {
@@ -294,9 +299,9 @@ nav {
 
 .carousel-control.right, .carousel-control.left {
   background-image: none;
-  background-image: none;
-  background-image: none;
-  background-image: none;
+  -webkit-background-image: none;
+  -moz-background-image: none;
+  -o-background-image: none;
   filter: none;
   background-repeat: repeat-x;
 }
@@ -543,6 +548,15 @@ nav {
   #training-story {
     margin-top: 25vh;
   }
+  #two{
+    position: relative;
+    right: 0vw;
+    top: 0vw;
+    padding: 3vh 15px;
+  }
+  #story-quote{
+    text-align: center;
+  }
 }
 
 
@@ -551,7 +565,7 @@ nav {
 
 /*----------------------------------------------TABLET ONLY START------------------*/
 
-@media only screen (min-width: 768px) and (max-width: 992px) {}
+@media only screen and (min-width: 768px) and (max-width: 992px) {}
 
 
 /*----------------------------------------------TABLET ONLY END--------------------*/
