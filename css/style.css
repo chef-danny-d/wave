@@ -224,7 +224,7 @@ nav {
   letter-spacing: .3em;
 }
 
-#liner {
+.liner {
   border-right: #8FAFC7 solid 3px;
   height: 15vh;
   margin-top: 33px;
@@ -344,12 +344,26 @@ nav {
   font-size: 1.07em;
 }
 
+.info-inner .skin{
+    font-weight: 600;
+    letter-spacing: 0.15em;
+}
+
+#chilli{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
 .info-inner span {
   display: block;
   text-align: center;
 }
 
-#price {
+.price {
   font-size: 1.5em;
 }
 
@@ -363,7 +377,40 @@ nav {
   font-family: 'Playfair Display', serif;
   letter-spacing: -0.02em;
 }
-
+.board{
+    -webkit-transition: ease 1s;
+    -moz-transition: ease 1s;
+    -ms-transition: ease 1s;
+    -o-transition: ease 1s;
+    transition: ease 1s;
+}
+.board:hover, .board:focus{
+    -webkit-transition: ease 1s;
+    -moz-transition: ease 1s;
+    -ms-transition: ease 1s;
+    -o-transition: ease 1s;
+    transition: ease 1s;
+    background: linear-gradient(to bottom, rgba(194, 166, 159, 0.3) 0%, rgba(194, 166, 159, 0.6) 100%);
+    background: -moz-linear-gradient(top, rgba(194, 166, 159, 0.3) 0%, rgba(194, 166, 159, 0.6) 100%);
+    background: -webkit-linear-gradient(top, rgba(194, 166, 159, 0.3) 0%, rgba(194, 166, 159, 0.6) 100%);
+    background: linear-gradient(to bottom, rgba(194, 166, 159, 0.3) 0%, rgba(194, 166, 159, 0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f9f9f9', GradientType=0);
+}
+.board-img{
+    -webkit-transition: ease 1s;
+    -moz-transition: ease 1s;
+    -ms-transition: ease 1s;
+    -o-transition: ease 1s;
+    transition: ease 1s;
+}
+.board:hover > .board-img, .board:focus > .board-img{
+    -webkit-transition: ease 1s;
+    -moz-transition: ease 1s;
+    -ms-transition: ease 1s;
+    -o-transition: ease 1s;
+    transition: ease 1s;
+    background: transparent;
+}
 #show {
   width: 100%;
   margin: auto;
@@ -429,7 +476,7 @@ nav {
   margin-top: -10%;
 }
 
-#training #num {
+#training .num {
   font-size: 18em;
   font-family: sans-serif;
   position: absolute;
@@ -437,7 +484,7 @@ nav {
   color: rgba(150, 150, 150, 0.1);
 }
 
-#training-read::after {
+.training-read::after {
   width: 22%;
   height: 3px;
   background: #8FAFC7;
@@ -507,6 +554,13 @@ nav {
 
 /*----------------------------------------------SOCIAL END-------------------------*/
 
+/*----------------------------------------------CONTACT START----------------------*/
+
+#contact {
+    margin-top: 15vh;
+}
+
+/*----------------------------------------------CONTACT END-------------------------*/
 
 /*----------------------------------------------MOBILE ONLY START------------------*/
 
@@ -514,6 +568,9 @@ nav {
   #surf .carousel {
     width: auto;
   }
+    #contact {
+        margin-top: 100vh;
+    }
 }
 
 
@@ -534,7 +591,7 @@ nav {
   #power-q {
     margin-top: 5vh;
   }
-  #liner {
+  .liner {
     width: 50%;
   }
   #story-quote a {

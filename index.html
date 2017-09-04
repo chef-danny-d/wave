@@ -24,7 +24,7 @@
   <nav class="navbar navbar-default">
     <!--nav start-->
     <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
+      <!--Brand and toggle get grouped for better mobile display-->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
@@ -79,7 +79,7 @@
         john mccarthy
       </p>
     </div>
-    <div class="col-md-offset-3 col-md-3" id="liner"></div>
+    <div class="col-md-offset-3 col-md-3 liner"></div>
     <div class="col-md-12" id="img-wrapper">
       <img src="img/one.jpg" alt="" class="col-md-6 col-md-offset-1 img-responsive" id="one" />
       <img src="img/two.jpg" alt="" class="col-md-7 img-responsive" id="two" />
@@ -101,27 +101,27 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="col-md-4"><img src="img/chilli.png" alt="chilli surf board" class="img-responsive" />
+          <div class="col-md-4 board"><img id="chilli" src="img/chilli.png" alt="chilli surf board" class="img-responsive board-img" />
             <div class="info">
               <div class="info-inner">
-                <p class="black">Funboards</p>
-                <p class="board-name">Chilli Rare Bird</p><span class="cobalt" id="price">$890</span><span class="buy">BUY</span>
+                <p class="skin">Funboards</p>
+                <p class="board-name">Chilli Rare Bird</p><span class="deep price">$890</span><span class="buy">BUY</span>
               </div>
             </div>
           </div>
-          <div class="col-md-4"><img src="img/emery.png" alt="emery surf board" class="img-responsive" />
+          <div class="col-md-4 board"><img src="img/emery.png" alt="emery surf board" class="img-responsive board-img" />
             <div class="info">
               <div class="info-inner">
-                <p class="black">Surfboards</p>
-                <p class="board-name">Emery NEM XF</p><span class="cobalt" id="price">$950</span><span class="buy">BUY</span>
+                <p class="skin">Surfboards</p>
+                <p class="board-name">Emery NEM XF</p><span class="deep price">$950</span><span class="buy">BUY</span>
               </div>
             </div>
           </div>
-          <div class="col-md-4"><img src="img/agency.png" alt="agency surf board" class="img-responsive" />
+          <div class="col-md-4 board"><img src="img/agency.png" alt="agency surf board" class="img-responsive board-img" />
             <div class="info">
               <div class="info-inner">
-                <p class="black">Funboards</p>
-                <p class="board-name">Agency GROM</p><span class="cobalt" id="price">$670</span><span class="buy">BUY</span>
+                <p class="skin">Funboards</p>
+                <p class="board-name">Agency GROM</p><span class="deep price" >$670</span><span class="buy">BUY</span>
               </div>
             </div>
           </div>
@@ -132,30 +132,37 @@
   </section>
   <section id="training" class="row">
     <div class="col-md-4 col-md-offset-1">
-      <h1 class="gray" id="num">01</h1>
+      <h1 class="gray num">01</h1>
       <h2 class="black">Surf Training</h2>
       <p class="cobalt">
         Surf is different. Surfing is a lifestyle. Surfing is addictive. And it is certainly a lot of fun. Of course, surfing is done in the ocean, and everything you do out there is dangerous.
       </p>
-      <a href="#" class="deep" id="training-read">READ MORE</a>
+      <a href="#" class="deep training-read">READ MORE</a>
     </div>
     <div class="col-md-6" id="train-img-wrapper">
       <img src="img/train_01.jpg" alt="train-img 1" class="img-responsive" />
     </div>
     <div id="training-story">
       <div class="col-md-4 col-md-offset-1">
-        <h1 class="gray" id="num">02</h1>
+        <h1 class="gray num">02</h1>
         <h2 class="black">Point Break</h2>
         <p class="cobalt">
           Surfing has a long History. European encounter it the first time 1767 when they arrived at the coast of Tahiti. The fascination of Surfing is incredible. I'm writing this as a Swiss Guy who grow up in a Country with no ocean.</p>
-        <a href="#" class="deep" id="training-read">READ MORE</a>
+        <a href="#" class="deep training-read">READ MORE</a>
       </div>
-      <div class="col-md-5 col-md-offset-2" id="">
+      <div class="col-md-5 col-md-offset-2">
         <img src="img/train_02.jpg" alt="train-img 1" class="img-responsive" />
       </div>
     </div>
   </section>
-  <section id="contact"></section>
+  <section id="contact">
+    <div class="col-md-offset-3 col-md-3 liner"></div>
+    <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12" id="club">
+      <h3 id="club-title" class="">Join the Club</h3>
+      <input id="club-field" type="email" name="email-newsletter" placeholder="YOUR E-MAIL">
+      <button class="btn btn-info" id="club-btn"><i class="glyphicon glyphicon-chevron-right"></i></button>
+    </div>
+  </section>
   <section class="col-md-1 pull-right" id="social">
     <p>first surfing magazine</p>
     <div id="social-icon">
