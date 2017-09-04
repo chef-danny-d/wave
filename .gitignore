@@ -39,3 +39,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Heavy files #
+###############
+.psd
