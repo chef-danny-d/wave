@@ -28,11 +28,10 @@
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+            <span class="glyphicon glyphicon-menu-down" id="arrow-down"></span>
+            <span class="glyphicon glyphicon-menu-up" id="arrow-up"></span>
         </button>
-        <a class="navbar-brand" href="#home">Brand</a>
+        <a class="navbar-brand" href="#home"><img src="img/logo.jpg" alt="logo of surf company"></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -49,7 +48,7 @@
     <!-- /.container-fluid -->
   </nav>
   <!--nav end-->
-  <!--<div id="pallet">
+  <div id="pallet">
     <p title="white">white</p>
     <p title="sky">sky</p>
     <p title="deep">deep</p>
@@ -57,7 +56,7 @@
     <p title="cobalt">cobalt</p>
     <p title="carbon">carbon</p>
     <p title="skin">skin</p>
-  </div>-->
+  </div>
   <section id="home" class="row">
     <div class="col-md-5 col-md-offset-1" id="power-q">
       <p id="little" class="carbon">
@@ -157,10 +156,15 @@
   </section>
   <section id="contact">
     <div class="col-md-offset-3 col-md-3 liner"></div>
-    <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12" id="club">
-      <h3 id="club-title" class="">Join the Club</h3>
-      <input id="club-field" type="email" name="email-newsletter" placeholder="YOUR E-MAIL">
-      <button class="btn btn-info" id="club-btn"><i class="glyphicon glyphicon-chevron-right"></i></button>
+    <div class="col-md-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12 col-lg-8" id="club">
+        <h3 id="club-title" class="center-block black">Join the Club</h3>
+        <p class="sky">By better understanding the various aspects of surfing, you will improve faster <br/> and have more fun in the water.</p>
+        <div class="input-group" id="join-field">
+            <input type="text" class="form-control" placeholder="YOUR E-MAIL">
+            <span class="input-group-btn">
+                <button id="join" class="btn btn-default" type="button"><i class="glyphicon glyphicon-menu-right"></i></button>
+            </span>
+        </div><!-- /input-group -->
     </div>
   </section>
   <section class="col-md-1 pull-right" id="social">
@@ -177,6 +181,24 @@
   <script src="https://use.fontawesome.com/c31df283b8.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/jquery-3.1.1.min.js"></script>
+  <script>
+      $(document).ready(function(){
+      //on click of down arrow to open menu
+          //hide down arrow
+          $("#arrow-down").click(function(){
+              $("#arrow-down").hide();
+              //show up arrow
+              $("#arrow-up").addClass("show");
+          });
+      //on click of up arrow to close menu
+          $("#arrow-up").click(function(){
+              $("#arrow-up").removeClass("show");
+          //hide up arrow
+              $("#arrow-down").show();
+          //show down arrow
+          });
+      });
+  </script>
   <script>
     $(function() {
       $('a[href*="#"]:not([href="#"])').click(function() {

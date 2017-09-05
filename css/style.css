@@ -55,7 +55,7 @@ skin: #C2A69F
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, 'Inconsolata', monospace;
   font-weight: 300;
-  font-size: calc(11px + (26 - 19) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(11px + (26 - 19) * ((100vw - 300px) / (1300)));
 }
 
 .white {
@@ -116,10 +116,6 @@ nav {
   text-transform: uppercase;
 }
 
-.navbar ul {
-  padding-left: 15vw;
-}
-
 .navbar {
   margin-bottom: 0px;
 }
@@ -144,6 +140,37 @@ nav {
   border-color: transparent;
 }
 
+.navbar-brand{
+  padding: 5px 15px;
+}
+.navbar-brand img{
+  height: 100%;
+}
+
+.navbar ul{
+  padding-left: 0;
+}
+
+.navbar-toggle{
+  background: transparent;
+  border-radius: 0;
+  transition: 1s ease;
+  padding: 0;
+}
+.navbar-toggle:hover{
+  box-shadow: 2px 2px 2px;
+  transition: 1s ease;
+}
+.navbar-default .navbar-toggle:focus{
+  background: transparent;
+}
+
+span#arrow-up{
+  display: none;
+}
+#arrow-up, #arrow-down{
+  padding: 12px 12px;
+}
 
 /*----------------------------------------------NAVBAR END-------------------------*/
 
@@ -557,9 +584,72 @@ nav {
 /*----------------------------------------------CONTACT START----------------------*/
 
 #contact {
-    margin-top: 15vh;
+  margin-top: 15vh;
+}
+#join{
+  background-color: #23445F;
+  color: white;
+}
+#join-field input, #join-field span{
+  border: 0;
+  border-radius: 0;
+  background-color: #eee;
+  outline: 0;
+  box-shadow: none;
+}
+#join-field input{
+  padding: 15px 25px;
+}
+#join-field input::-webkit-input-placeholder{
+  color: #333 !important;
+  letter-spacing: 0.2em;
+  font-weight: 800;
+  line-height: 1.2em;
+  font-size: x-small;
 }
 
+#join-field input:-moz-placeholder { /* Firefox 18- */
+  color: #333 !important;
+  letter-spacing: 0.2em;
+  font-weight: 800;
+  line-height: 1.2em;
+  font-size: x-small;
+}
+
+#join-field input::-moz-placeholder {  /* Firefox 19+ */
+  color: #333 !important;
+  letter-spacing: 0.2em;
+  font-weight: 800;
+  line-height: 1.2em;
+  font-size: x-small;
+}
+
+#join-field input:-ms-input-placeholder {
+  color: #333 !important;
+  letter-spacing: 0.2em;
+  font-weight: 800;
+  line-height: 1.2em;
+  font-size: x-small;
+}
+#join:hover{
+  /*add animation here for arrow  */
+}
+#club-title{
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: 0.03em;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+#club p{
+  text-align: center;
+}
+#join-field .btn-default:hover {
+  border-color: transparent;
+}
+#join-field .btn-default:focus, .btn-default:active {
+  outline: none;
+}
 /*----------------------------------------------CONTACT END-------------------------*/
 
 /*----------------------------------------------MOBILE ONLY START------------------*/
@@ -568,9 +658,13 @@ nav {
   #surf .carousel {
     width: auto;
   }
-    #contact {
-        margin-top: 100vh;
-    }
+  #contact {
+      margin-top: 90vh;
+  }
+  .navbar ul{
+    text-align: center;
+  }
+
 }
 
 
@@ -622,7 +716,11 @@ nav {
 
 /*----------------------------------------------TABLET ONLY START------------------*/
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #contact{
+    margin-top: 100vh;
+  }
+}
 
 
 /*----------------------------------------------TABLET ONLY END--------------------*/
@@ -638,3 +736,14 @@ nav {
 
 
 /*----------------------------------------------DESKTOP ONLY END-------------------*/
+
+/*----------------------------------------------TABLET AND DESKTOP START-----------*/
+@media only screen and (min-width: 768px) {
+  .navbar-default .navbar-collapse {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/*----------------------------------------------TABLET AND DESKTOP END-------------*/
