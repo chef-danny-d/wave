@@ -1,11 +1,11 @@
-![hard load time](https://img.shields.io/badge/hard%20load%20time-527%20ms-orange.svg?style=flat "hard load time")
-![soft load time](https://img.shields.io/badge/soft%20load%20time-392%20ms-yellow.svg?style=flat "soft load time")
-![repo size](https://img.shields.io/badge/repo%20size-26.70%20MB-red.svg?style=flat "repo size")
-![status](https://img.shields.io/badge/status-in%20work-brightgreen.svg?style=flat "status")
-![optimized](https://img.shields.io/badge/image-optimized-brightgreen.svg?style=flat "optimized")
-![responsive](https://img.shields.io/badge/responsive-all-brightgreen.svg?style=flat "responsive")
-![css check](https://img.shields.io/badge/W3%20CSS%20status-warning-yellow.svg?style=flat "css check")
-![html check](https://img.shields.io/badge/W3%20HTML%20status-pass-brightgreen.svg?style=flat "html check")
+<a href="#"><img src="https://img.shields.io/badge/hard%20load%20time-527%20ms-orange.svg?style=flat" alt="hard load time"></a>
+<a href="#"><img src="https://img.shields.io/badge/soft%20load%20time-392%20ms-yellow.svg?style=flat" alt="soft load time"></a>
+<a href="#"><img src="https://img.shields.io/badge/repo%20size-26.70%20MB-red.svg?style=flat" alt="repo size"></a>
+<a href="#"><img src="https://img.shields.io/badge/status-in%20work-brightgreen.svg?style=flat" alt="status"></a>
+<a href="#"><img src="https://img.shields.io/badge/image-optimized-brightgreen.svg?style=flat" alt="optimized"></a>
+<a href="#"><img src="https://img.shields.io/badge/responsive-all-brightgreen.svg?style=flat" alt="responsive"></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchef-danny-d.github.io%2Fwave%2Fcss%2Fstyle.css&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en"><img src="https://img.shields.io/badge/W3%20CSS%20status-warning-yellow.svg?style=flat" alt="css check"></a>
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fchef-danny-d.github.io%2Fwave%2F"><img src="https://img.shields.io/badge/W3%20HTML%20status-pass-brightgreen.svg?style=flat" alt="html check"></a>
 
 # Wave
 *Freelance website based on PSD template seen on:* https://dribbble.com/shots/3079082-Surfing-Free-Theme-PSD
