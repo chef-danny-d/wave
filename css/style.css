@@ -102,6 +102,9 @@ a:hover, a:focus, a:visited {
   text-decoration: none;
 }
 
+.btn-default{
+  border-color: transparent;
+}
 
 /*----------------------------------------------GLOBAL END--------------------------*/
 
