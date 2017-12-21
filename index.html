@@ -87,9 +87,10 @@
       <p class="cobalt">
         By understanding the various aspects of surfing, you will improve faster and have more fun in the water
       </p>
-      <a href="#" class="deep">READ MORE</a>
+      <a href="#" class="deep read">READ MORE</a>
     </div>
   </section>
+  <!--this section is bugging out from 992px to 807px. the images are sliding down the container and the surfboard text as well as the shop text are getting overlapped -->
   <section id="surf" class="row">
     <div id="surf-title">
       <span class="carbon">SHOP</span>
@@ -100,6 +101,14 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
+          <div class="col-md-4 board"><img id="emery" src="img/emery.png" alt="emery surf board" class="img-responsive board-img" />
+            <div class="info">
+              <div class="info-inner">
+                <p class="skin">Surfboards</p>
+                <p class="board-name">Emery NEM XF</p><span class="deep price">$950</span><span class="buy">BUY</span>
+              </div>
+            </div>
+          </div>
           <div class="col-md-4 board"><img id="chilli" src="img/chilli.png" alt="chilli surf board" class="img-responsive board-img" />
             <div class="info">
               <div class="info-inner">
@@ -108,26 +117,18 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 board"><img src="img/emery.png" alt="emery surf board" class="img-responsive board-img" />
-            <div class="info">
-              <div class="info-inner">
-                <p class="skin">Surfboards</p>
-                <p class="board-name">Emery NEM XF</p><span class="deep price">$950</span><span class="buy">BUY</span>
-              </div>
-            </div>
-          </div>
           <div class="col-md-4 board"><img src="img/agency.png" alt="agency surf board" class="img-responsive board-img" />
             <div class="info">
               <div class="info-inner">
                 <p class="skin">Funboards</p>
-                <p class="board-name">Agency GROM</p><span class="deep price" >$670</span><span class="buy">BUY</span>
+                <p class="board-name">Agency GROM</p><span class="deep price">$670</span><span class="buy">BUY</span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <a href="#" id="show">Show All</a>
+    <a href="#" id="show" class="read">Show All</a>
   </section>
   <section id="training" class="row">
     <div class="col-md-4 col-md-offset-1">
@@ -136,7 +137,7 @@
       <p class="cobalt">
         Surf is different. Surfing is a lifestyle. Surfing is addictive. And it is certainly a lot of fun. Of course, surfing is done in the ocean, and everything you do out there is dangerous.
       </p>
-      <a href="#" class="deep training-read">READ MORE</a>
+      <a href="#" class="deep training-read read">READ MORE</a>
     </div>
     <div class="col-md-6" id="train-img-wrapper">
       <img src="img/train_01.jpg" alt="train-img 1" class="img-responsive" />
@@ -147,7 +148,7 @@
         <h2 class="black">Point Break</h2>
         <p class="cobalt">
           Surfing has a long History. European encounter it the first time 1767 when they arrived at the coast of Tahiti. The fascination of Surfing is incredible. I'm writing this as a Swiss Guy who grow up in a Country with no ocean.</p>
-        <a href="#" class="deep training-read">READ MORE</a>
+        <a href="#" class="deep training-read read">READ MORE</a>
       </div>
       <div class="col-md-5 col-md-offset-2">
         <img src="img/train_02.jpg" alt="train-img 1" class="img-responsive" />
@@ -157,14 +158,15 @@
   <section id="contact">
     <div class="col-md-offset-3 col-md-3 liner"></div>
     <div class="col-md-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12 col-lg-8" id="club">
-        <h3 id="club-title" class="center-block black">Join the Club</h3>
-        <p class="sky">By better understanding the various aspects of surfing, you will improve faster <br/> and have more fun in the water.</p>
-        <div class="input-group" id="join-field">
-            <input type="text" class="form-control" placeholder="YOUR E-MAIL">
-            <span class="input-group-btn">
+      <h3 id="club-title" class="center-block black">Join the Club</h3>
+      <p class="sky">By better understanding the various aspects of surfing, you will improve faster <br/> and have more fun in the water.</p>
+      <div class="input-group" id="join-field">
+        <input type="text" class="form-control" placeholder="YOUR E-MAIL">
+        <span class="input-group-btn">
                 <button id="join" class="btn btn-default" type="button"><i class="glyphicon glyphicon-menu-right"></i></button>
             </span>
-        </div><!-- /input-group -->
+      </div>
+      <!-- /input-group -->
     </div>
   </section>
   <section class="col-md-1 pull-right" id="social">
@@ -182,23 +184,40 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/jquery-3.1.1.min.js"></script>
   <script>
-      $(document).ready(function(){
+    $(document).ready(function() {
       //on click of down arrow to open menu
-          //hide down arrow
-          $("#arrow-down").click(function(){
-              $("#arrow-down").hide();
-              //show up arrow
-              $("#arrow-up").addClass("show");
-          });
-      //on click of up arrow to close menu
-          $("#arrow-up").click(function(){
-              $("#arrow-up").removeClass("show");
-          //hide up arrow
-              $("#arrow-down").show();
-          //show down arrow
-          });
+      //hide down arrow
+      $("#arrow-down").click(function() {
+        $("#arrow-down").hide();
+        //show up arrow
+        $("#arrow-up").addClass("show");
       });
+      //on click of up arrow to close menu
+      $("#arrow-up").click(function() {
+        $("#arrow-up").removeClass("show");
+        //hide up arrow
+        $("#arrow-down").show();
+        //show down arrow
+      });
+    });
   </script>
+  <!--<script>
+    //this function doesn't work. the arrow needs to change directions when the nav is collapes because of the anchor tag being clikced
+    $(document).ready(function() {
+      $('.nav a').on('click', function() {
+        $('.btn-navbar').click(); //bootstrap 2.x
+        $('.navbar-toggle').click(); //bootstrap 3.x by Richard
+
+        $().toggle(function() { //change direction of dropdown arrow !!test!!
+          $("#arrow-down").hide(),
+            $("#arrow-up").show(); //hide down arrow and show up arrow
+        }, function() {
+          $("#arrow-up").hide(),
+            $("#arrow-down").show(); //hide up arrow and hide down arrow
+        });
+      });
+    });
+  </script>-->
   <script>
     $(function() {
       $('a[href*="#"]:not([href="#"])').click(function() {
