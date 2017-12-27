@@ -190,7 +190,11 @@ span#arrow-up {
 /*----------------------------------------------HOME START-------------------------*/
 
 #power-q {
-  margin-top: 33vh;
+  margin-top: 25vh;
+}
+
+#power-q p {
+  color: black !important;
 }
 
 #home img {
@@ -576,8 +580,11 @@ span#arrow-up {
 }
 
 #join {
-  background-color: #23445F;
+  background-color: #8FAFC7;
   color: white;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
 }
 
 #join-field input, #join-field span {
@@ -589,7 +596,7 @@ span#arrow-up {
 }
 
 #join-field input {
-  padding: 15px 25px;
+  padding: 15px 35px;
 }
 
 #join-field input::-webkit-input-placeholder {
@@ -648,6 +655,44 @@ span#arrow-up {
 
 #join-field .btn-default:focus, .btn-default:active {
   outline: none;
+}
+
+.reset {
+  margin-top: 15vh;
+}
+
+.reset .col-lg-6, .reset .col-md-6, .reset .col-sm-6 {
+  padding-left: 0;
+}
+
+.reset .gray {
+  color: #ccc;
+  letter-spacing: 0.4em;
+}
+
+.reset #addr {
+  margin-left: 15%;
+  font-size: 1.5em;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  font-family: serif;
+  line-height: 1.5em;
+  word-spacing: 0.1em;
+  padding: 25px 0px;
+}
+
+.reset .read {
+  color: #8FAFC7;
+  text-align: center;
+  width: 50%;
+}
+
+.reset .read::after {
+  width: 20%;
+  height: 3px;
+  background: #8FAFC7;
+  display: block;
+  content: " ";
 }
 
 /*----------------------------------------------CONTACT END-------------------------*/
